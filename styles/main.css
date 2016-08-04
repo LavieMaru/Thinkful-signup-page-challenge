@@ -1,0 +1,107 @@
+body {
+	background-color: skyblue;
+	font-family: helvetica, sans-serif;
+}
+
+fieldset {
+	border: 1px solid white;
+	width: 360px;
+	padding-left: 40px;
+	padding-right: 40px;
+	background-color: white;
+	border-radius: 5px;
+}
+
+.fillform label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+ form {
+	display: block;
+	height: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+}
+
+img {
+	display: block;
+	height: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 30px;
+	margin-top: 60px;
+}
+
+.sign-up p {
+	font-family: helvetica;
+	font-size: 35px;
+	text-align: center;
+	color: #e3e3e3;
+}
+
+input, button {
+	display: block;
+	width: 320px;
+	border: 2px solid #EEEEEE;
+	padding: 15px;
+	margin-top: 14px;
+	margin-bottom: 14px;
+	height: 55px;
+	font-size: 20px;
+}
+
+.form input::-webkit-input-placeholder {
+	color: #bfbfbf;
+}
+
+.form input::-ms-input-placeholder {
+	color: #bfbfbf;
+}
+
+.form input::-moz-placeholder {
+	color: #bfbfbf;
+}
+
+#email {
+	text-align: left;
+}
+
+.submit {
+	background-color: lightgreen;
+	border-radius: 0;
+	color: white;
+	display: block;
+	width: 350px;
+	border: 2px solid #EEEEEE;
+	height: 85px;
+	margin-top: 40px;
+
+}
+
+
+.submit:hover {
+	background-color: #3ba381;
+}
+
+.login {
+	text-align: center;
+	font-size: 18px;
+	color: white;
+}
+
+.forgot {
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.forgot a {
+	color: #bfbfbf;
+	margin-right: auto;
+}
+
+.login a {
+	color: white;
+	font-family: arial;
+}
